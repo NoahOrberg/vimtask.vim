@@ -4,7 +4,7 @@
 ## Preparation
 You should write your `.vimrc`
 ```
-dein#call('NoahOrberg/vimtask.vim')
+call dein#add('NoahOrberg/vimtask.vim')
 ```
 or
 ```

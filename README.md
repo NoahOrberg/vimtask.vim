@@ -1,5 +1,5 @@
 # vimtask.vim
-[ここを参考に作ってみた](http://kannokanno.hatenablog.com/entry/20120403/1333462565)
+[ここ](http://kannokanno.hatenablog.com/entry/20120403/1333462565)を参考に作ってみた
 
 ## Preparation
 You should write your `.vimrc`

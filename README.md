@@ -14,9 +14,17 @@ NeoBundle 'NoahOrberg/vimtask.vim'
 ## Usage
 ### Make TODO-Item
 - `:MakeTODO {COMMENT_MARKER} {TODO}`  
-FOR INSTANCE:
+FOR INSTANCE(`C`):
 ```
 :MakeTODO // CHECK_DB_SCHEMA
+```
+FOR INSTANCE(`Ruby`):
+```
+:MakeTODO # CHECK_DB_SCHEMA
+```
+FOR INSTANCE(`Haskell`):
+```
+:MakeTODO -- CHECK_DB_SCHEMA
 ```
 
 ### Toggle(`DO` and `UNDO`)

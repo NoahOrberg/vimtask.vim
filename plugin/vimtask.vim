@@ -2,11 +2,9 @@ if exists("g:loaded_vimtask")
   finish
 endif
 let g:loaded_vimtask = 1
-
 let s:save_cpo = &cpo
 set cpo&vim
 
-" Vim Plugin Sample
 command! -nargs=0 MyTaskToggle call vimtask#toggle(getline("."))
 command! -nargs=* MakeTODO call vimtask#make(<f-args>)
 noremap td :MyTaskToggle<CR>

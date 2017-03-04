@@ -8,7 +8,6 @@ function! vimtask#toggle(line)
     call setline('.', substitute(a:line, '\[ \]', '[D]<'.strftime("%Y/%m/%d %H:%M").'>', ''))
   endif
 endfunction
-
 function! vimtask#make(...)
   call append('.', a:1.' [ ] '.a:2)
 endfunction

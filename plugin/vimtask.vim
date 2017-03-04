@@ -8,7 +8,7 @@ set cpo&vim
 
 " Vim Plugin Sample
 command! -nargs=0 MyTaskToggle call vimtask#toggle(getline("."))
-command! -nargs=* MakeTODO call vimtask#make(getline(".", <f-args>))
+command! -nargs=* MakeTODO call vimtask#make(<f-args>)
 noremap td :MyTaskToggle<CR>
 
 let &cpo = s:save_cpo

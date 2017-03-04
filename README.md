@@ -12,10 +12,15 @@ NeoBundle 'NoahOrberg/vimtask.vim'
 ```
 
 ## Usage
+### Make TODO-Item
 - `:MakeTODO {COMMENT_MARKER} {TODO}`  
 FOR INSTANCE:
 ```
 :MakeTODO // CHECK_DB_SCHEMA
 ```
+
+### Toggle(`DO` and `UNDO`)
 - To toggle `DO` and `UNDO`, Command is `td`(Normal Mode)
 
+### Delete
+- `dd` command

@@ -10,7 +10,7 @@ function! vimtask#toggle(line)
 endfunction
 
 function! vimtask#make(...)
-  call append('.', a:0.' [ ]'.a:1)
+  call append('.', a:1.' [ ]'.a:2)
 endfunction
 
 let &cpo = s:save_cpo
